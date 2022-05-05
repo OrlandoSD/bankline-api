@@ -8,7 +8,7 @@ import javax.persistence.Table;
 import javax.persistence.Column;
 
 @Entity
-@Table(name = "lab_correntista")
+@Table(name = "tab_correntista")
 public class Correntista {
 	private Integer id;
 	@Id
