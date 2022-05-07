@@ -1,4 +1,4 @@
-package com.dio.satander.bankline.api.controller;
+package com.dio.santander.bankline.api.controller;
 
 import java.util.List;
 

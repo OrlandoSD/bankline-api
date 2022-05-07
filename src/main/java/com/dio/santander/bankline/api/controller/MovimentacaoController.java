@@ -1,4 +1,4 @@
-package com.dio.satander.bankline.api.controller;
+package com.dio.santander.bankline.api.controller;
 
 import java.util.List;
 
@@ -34,7 +34,7 @@ public class MovimentacaoController {
 	}
 	@GetMapping("/{idConta}")
 	public List<Movimentacao> findAll(@PathVariable("idConta") Integer idConta){
-		return repository.findByIdConta(idConta);
+		return repository. findByIdConta(idConta);
 	}
 	@PostMapping
 	public void save(@RequestBody NovaMovimentacao movimentacao) {

@@ -1,4 +1,4 @@
-package com.dio.satander.bankline.api.model;
+package com.dio.santander.bankline.api.model;
 
 import java.time.LocalDateTime;
 
@@ -69,6 +69,10 @@ public class Movimentacao {
 	}
 	public void setIdconta(Integer idconta) {
 		this.idconta = idconta;
+	}
+	public void setIdConta(Integer idConta2) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	

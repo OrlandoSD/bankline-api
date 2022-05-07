@@ -1,4 +1,4 @@
-package com.dio.satander.bankline.api.model;
+package com.dio.santander.bankline.api.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GenerationType;
@@ -23,6 +23,7 @@ public class Correntista {
 	
 	private Conta conta;
 	
+	
 	public Conta getConta() {
 		return conta;
 	}
@@ -44,6 +45,11 @@ public class Correntista {
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public void setConta(Conta conta2) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	

@@ -1,4 +1,4 @@
-package com.dio.satander.bankline.api.dto;
+package com.dio.santander.bankline.api.dto;
 
 import com.dio.santander.bankline.api.model.MovimentacaoTipo;
 

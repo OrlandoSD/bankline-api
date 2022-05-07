@@ -1,4 +1,4 @@
-package com.dio.satander.bankline.api.model;
+package com.dio.santander.bankline.api.model;
 
 import javax.persistence.Column;
 
