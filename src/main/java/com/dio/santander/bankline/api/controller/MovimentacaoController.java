@@ -19,6 +19,7 @@ import com.dio.santander.bankline.api.repository.MovimentacaoRepository;
 import com.dio.santander.bankline.api.service.CorrentistaService;
 import com.dio.santander.bankline.api.service.MovimentacaoService;
 
+@SuppressWarnings("unused")
 @RestController
 @RequestMapping("/movimentacoes")
 public class MovimentacaoController {
